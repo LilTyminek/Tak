@@ -11,6 +11,11 @@ th, td {
     padding: 8px;
     border: 1px solid black;
 }
+td{
+    width: 300px;
+}
+.info{
+    width: 200px;
 th {
     background-color: #ddd;
 }
@@ -21,4 +26,18 @@ th {
 }
 .content{
     margin: 10px;
+}
+.menu{
+    width: 100%;
+    min-width: 1000px;
+}
+.menudiv{
+    float: left;
+    width: 100px;
+}
+.l{
+    clear:both;
+}
+.logout{
+    text-align: right;
 }
